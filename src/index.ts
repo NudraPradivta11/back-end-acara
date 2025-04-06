@@ -13,12 +13,12 @@ async function init() {
 
     const PORT = 3000;
 
-    app.get("/", (req, res) => {
-      res.status(200).json({
-        message: "Server is running",
-        data: null,
-      });
-    });
+    // app.get("/", (req, res) => {
+    //   res.status(200).json({
+    //     message: "Server is running",
+    //     data: null,
+    //   });
+    // });
 
     app.use("/api", router);
 
