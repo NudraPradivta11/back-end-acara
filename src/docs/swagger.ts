@@ -28,6 +28,16 @@ const doc = {
         identifier: "nudrapradivta",
         password: "12341234",
       },
+      RegisterRequest: {
+        fullName: "Nudra Pradivta",
+        username: "nudrapradivta",
+        email: "pradivtanudra@gmail.com",
+        password: "12341234",
+        confirmPassword: "12341234",
+      },
+      ActivationRequest: {
+        code: "abcdef",
+      },
     },
   },
 };
