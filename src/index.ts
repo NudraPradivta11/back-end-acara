@@ -33,4 +33,4 @@ async function init() {
   }
 }
 
-init();
+init()s;
