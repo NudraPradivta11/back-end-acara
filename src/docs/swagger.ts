@@ -25,8 +25,8 @@ const doc = {
     },
     schemas: {
       LoginRequest: {
-        identifier: "nudrapradivta",
-        password: "12341234",
+        identifier: "nudra2026",
+        password: "Nudra2025!",
       },
       RegisterRequest: {
         fullName: "Nudra Pradivta",
@@ -37,6 +37,31 @@ const doc = {
       },
       ActivationRequest: {
         code: "abcdef",
+      },
+      CreateCategoryRequest: {
+        name: "",
+        description: "",
+        icon: "",
+      },
+      CreateEventRequest: {
+        name: "Amazing Event 2026",
+        startDate: "2025-06-01T09:00:00Z",
+        endDate: "2025-06-02T18:00:00Z",
+        banner: "https://example.com/banner-image.jpg",
+        category: "681634e287a2f491dd08da95",
+        isFeatured: true,
+        isOnline: false,
+        isPublish: false,
+        description: "This is an exciting event happening online.",
+        createdBy: "681358311ea793b0e912911b",
+        slug: "amazing-event-2026",
+        location: {
+          region: 3273180003,
+          coordinates: [6.6, 10.1],
+        },
+      },
+      RemoveMediaRequest: {
+        fileUrl: "",
       },
     },
   },
